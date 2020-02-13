@@ -6,8 +6,8 @@
     "start": "nodejs ./bin/www"
   },
   "engines": {
-    "node": "~10.16.3",
-    "npm": "6.12.1"
+    "node": "~12.13.1",
+    "npm": "~6.12.1"
   },
   "dependencies": {
     "express": "~4.5.0",

@@ -1,11 +1,8 @@
- var express = require('express');
+var express = require('express');
 var router = express.Router();
+var ctrlMain = require('../controllers/main'); // cria uma dependência com o arquivo de controlador chamado main
 
-/* GET home page. */
-var homepageController = function(req, res){
-  res.render('index', {title: 'Express'});
-};
 
-router.get('/', homepageController);
+router.get('/', ctrlMain.index); // cria uma referência ao métido index do crontrolador main na definição de rota
 
 module.exports = router;

@@ -6,6 +6,18 @@ html
     link(rel='stylesheet', href='/bootstrap/css/bootstrap.css')
     
   body
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+   a.navbar-brand(href='#')
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+     span.navbar-toggler-icon      
+  .collapse.navbar-collapse#navbarSupportedContent  
+   ul.navbar-nav.mr-auto
+    li.nav-item.active
+     a.nav-link(href='/') MAIN
+    li.nav-item
+      a.nav-link(href='/sobre/') Sobre
+
+
     block content
     script(src='/javascripts/jquery-3.4.1.min.js')
     script(src='/bootstrap/js/bootstrap.js')  

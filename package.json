@@ -1,14 +1,14 @@
 {
   "name": "mean",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "estudos node",
+  "private": true,
   "scripts": {
-    "start": "nodejs ./bin/www"
+    "start": "node ./bin/www"
   },
   "engines": {
-    "npm": "~6.13.4",
-    "node": "~10.19.0"
+    "node": "~10.19.0",
+    "npm": "~6.13.4"
   },
   "dependencies": {
     "body-parser": "~1.19.0",

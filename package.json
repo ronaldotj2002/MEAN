@@ -7,8 +7,8 @@
     "start": "nodejs ./bin/www"
   },
   "engines": {
-    "node": "~10.19.0",
-    "npm": "~6.13.4"
+    "npm": "~6.13.4",
+    "node": "~10.19.0"
   },
   "dependencies": {
     "body-parser": "~1.19.0",

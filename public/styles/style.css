@@ -1,0 +1,10 @@
+.bg-menu{
+    background: #ccc;
+}
+.menu-toggler{
+    float: right;
+}
+
+.coluna{
+    border-left: 1px solid #999;
+}
